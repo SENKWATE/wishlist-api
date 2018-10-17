@@ -93,3 +93,5 @@ def wishlist(request):
         "wishlist": wishlist
     }
     return render(request, 'wishlist.html', context)
+
+
